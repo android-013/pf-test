@@ -25,13 +25,24 @@
 <body>
     <!-- Matrix Rain Canvas -->
     <canvas id="matrixCanvas"></canvas>
+    <script src="bg.js"></script>
 
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <img src="images/p1.jpeg" alt="Profile Picture" class="profile-pic-nav">
-        <h1>Aziz Rifat</h1>
-        <div class="menu-icon">☰</div>
+        <div class="nav-left">
+            <img src="images/p1.jpeg" alt="Profile Picture" class="profile-pic-nav">
+            <h1 class="nav-name">Aziz Rifat</h1>
+        </div>
+        <div class="nav-right">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
+
+    <script src="nav.js"></script>
+    
 
     <!-- first view -->
     <section class="welcome-section">
@@ -45,7 +56,7 @@
         <h3 class="about-subtitle">Get in loser! I'm Aziz Rifat</h3>
     </section>   
 
-    <section class="profile-section">
+    <section class="profile-section" id ="about">
         <div class="profile-pic">
             <img src="images/p1.jpeg" alt="Profile Picture">
         </div>
@@ -74,7 +85,7 @@
         <h3 class="about-subtitle">Technical work that I can do</h3>
     </section>
 
-    <section class="services-section">
+    <section class="services-section" id ="skills">
         <div class="service-icons">
             <img src="images/s1.svg" alt="Icon 1">
             <img src="images/s2.svg" alt="Icon 2">
@@ -127,7 +138,7 @@
         <h3 class="about-subtitle">These are the social sites I'm active</h3>
     </section>
     
-    <div class="social-link">
+    <div class="social-link" id="contact">
         <div>
             <a href="mailto:azrifat013@gmail.com" target="_blank">
                 <img src="images/g11.svg" alt="Social Icon" class="icon default-icon">
@@ -169,6 +180,6 @@
         </div>
     </div>
     
-    <script src="bg.js"></script>
+
 </body>
 </html>
