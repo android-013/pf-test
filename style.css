@@ -185,7 +185,7 @@ body, html {
 @media (max-width: 768px) {
 
     .about-over {
-        height: 20vh; /* Adjust height for smaller screens */
+        height: 40vh; /* Adjust height for smaller screens */
     }
     .about-title {
         font-size: 6rem; /* Adjust font size for mobile */
